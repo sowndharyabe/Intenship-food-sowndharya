@@ -1,0 +1,517 @@
+.image{
+	background-image: url('image/food.jpg');
+	height: 800px;
+	width: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.content h1{
+	font-family: 'Brush Script MT', cursive;
+	font-size: 110px;
+	padding-top: 50px;
+}
+.content p{
+	font-size: 23px;
+	font-family:  Verdana, sans-serif;
+}
+.content{
+	position: absolute;
+	text-align:center;
+	left:20%;
+	top: 18%;
+	float: right;
+
+}
+.button{
+	font-size: 20px;
+}
+
+.best h1{
+	font-family:'Brush Script MT', cursive ;
+}
+.best p{
+	font-family: Verdana, sans-serif ;
+}
+@media only screen and (max-width:576px){
+	.best h1, .best p{
+		width: 100%;
+	}
+}
+@media only screen and (max-width:768px){
+	.best h1, .best p{
+		width: 100%;
+	}
+}
+
+.food1 h2{
+	padding-left:90px ;
+	font-family:'Brush Script MT', cursive ;
+	position: absolute;
+}
+.food1 p{
+	padding-left:70px;
+	font-size: 15px;
+	position: absolute;
+	padding-top: 35px;
+}
+.food1 img{
+	padding-left: 25px;
+}
+.food1{
+	padding-left: 25px;
+	position: relative;
+}
+.taste{
+	background-image: url('image/bcon.jpg');
+	height: 1950px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 100%;
+	width: 100%;
+}
+@media only screen and (max-width:576px){
+	.taste{
+		width: 100%;
+	}
+}
+@media only screen and (max-width:768px){
+	.taste{
+		width: 100%;
+	}
+}
+.oriental{
+	float: right;
+	padding-top: 180px;
+	padding-right: 100px;
+}
+.oriental h1{
+	font-size:100px;
+	font-family:'Brush Script MT', cursive;
+}
+.oriental p{
+	font-size: 23px;
+}
+
+.static{
+	text-align: center;
+	margin-top: 150px;
+}
+.static h1{
+	font-size: 100px;
+	font-family:'Brush Script MT', cursive;
+}
+.static p{
+	font-size: 25px;
+	padding-top: 10px;
+}
+
+.round h1{
+	font-size: 45px;
+}
+.round p{
+	font-size: 26px;
+}
+.round{
+	border: 4px solid white;
+	border-radius: 100px;
+	width: 180px;
+	padding: 25px;
+}
+
+
+.chicken{
+	padding-top:270px;
+	padding-left: 80px;
+}
+.chicken h1{
+	font-size: 100px;
+	font-family:'Brush Script MT', cursive;
+}
+.chicken p{
+	font-size: 28px;
+}
+
+.orangem{
+	background-image: url('image/orange.jpg');
+	height: 790px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	position: relative;
+}
+.orangem p{
+	font-family:  Arial, sans-serif;
+	font-size: 39px;
+	padding-top: 280px;
+	padding-left: 200px;
+	position: absolute;
+
+}
+.orangem h1{
+	font-family:'Brush Script MT', cursive;
+	font-size:70px;
+	padding-left: 550px;
+	padding-top:470px;
+	position: absolute;
+}
+
+
+.white{
+	background-image: url('image/white.jpg');
+	height: 800px;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding-top: 100px;
+	position: relative;
+}
+.white h1{
+	font-size: 90px;
+	font-family:'Brush Script MT', cursive;
+	
+	padding-left:80px;
+}
+.white p{
+	font-size: 30px;
+
+}
+
+ input[type=email]{
+	width: 50%;
+}
+/*-----------------------1 bg image-----------------*/
+@media only screen and (max-width:768px){
+	.content h1{
+		font-size: 62px;
+		margin-top: -87px;
+	}
+	.content p{
+		font-size: 15px;
+	}
+	.button{
+		font-size: 10px;
+	}
+	width: 100%;
+}
+@media only screen and (max-width:600px){
+	.content h1{
+		font-size:59px;
+		margin-top: -127px;
+	}
+	.content p{
+		font-size: 12px;
+	}
+	.button{
+		font-size:10px;
+		margin-top: -34px;
+	
+	}
+}
+/*---------------------------rounded image---------------------------*/
+@media only screen and (max-width:768px){
+	.food1{
+		padding-left: 0px;
+		margin-left: -31px;
+	}
+	
+	width:80%;
+}
+@media only screen and (max-width:600px){
+	 .food1 p{
+		margin-top:1px;
+	}
+	.food1 img{
+		height:140px;
+		width: 166px;
+		padding-left: 32px;
+		margin-left:10px;
+	}
+	.food1 h2{
+		margin-left:-21px;
+	}
+	width:100%;
+}
+/*-------------------------bg image---------------------------------*/
+@media only screen and (max-width:768px){
+	.oriental h1{
+		font-size:56px;
+		margin-top:-54px;
+		margin-left:40px;
+	}
+	.oriental p{
+		font-size: 15px;
+		margin-right:-60px;
+	}
+	.button2{
+		margin-top:-19px;
+	
+	}
+	width: 100%;
+}
+@media only screen and (max-width:600px){
+	.oriental h1{
+		font-size: 50px;
+		margin-top:-47px;
+		margin-left: 33px;
+	}
+	.oriental p{
+		font-size: 14px;
+		margin-left: 18px;
+	}
+	.button2{
+		margin-top:-28px;
+	
+	}
+	.oriental{
+		margin-left: 10x;
+	}
+}
+/*-----------------------------static-------------------*/
+@media only screen and (max-width:768px){
+	.static h1{
+		font-size:57px;
+		margin-top:-118 ;
+		margin-left:-77 ;
+	}
+	.static p{
+		font-size: 15px;
+		margin-top:-34px;
+	}
+	.static{
+		margin-top: 10px;
+	}
+}
+@media only screen and (max-width:600px){
+	.static h1{
+		font-size:52px;
+		margin-top:-9px;
+	}
+	.static p{
+		font-size: 13px;
+	}
+	.static{
+		margin-top: 10px;
+	}
+	}
+/*---------------------circle--------------*/	
+	@media only screen and (max-width:768px){
+	.round{
+		height: 123px;
+		width: 123px;
+		margin-top: -45px;
+		margin-left: 7px;
+	}
+	.round h1{
+		font-size: 30px;
+	}
+	.round p{
+		font-size:15px;
+	}	
+}
+@media only screen and (max-width:600px){
+	.round{
+		height: 110px;
+		width: 110px;
+		margin-top:-56px;
+	}
+	.round h1{
+		font-size:24px;
+	}
+	.round p{
+		font-size: 13px;
+	}
+}
+/*---------------------chicken--------------------*/
+@media only screen and (max-width:768px){
+	.chicken{
+		margin-top:-190px;
+	}
+	.chicken h1{
+		font-size: 50px;
+	}
+	.chicken p{
+		font-size: 18px;
+	}
+	.button3{
+		margin-top: 10px;
+	}
+	
+}
+@media only screen and (max-width:600px){
+	.chicken{
+		margin-top:-257px;
+		margin-left: -24px;
+	}
+	.chicken h1{
+		font-size:43px;
+	}
+	.chicken p{
+		font-size: 12px;
+	}
+	.button3{
+		margin-top:-23px;
+		margin-left: -35px;
+		font-size: 10px;
+	}
+}
+/*-------------------------3 bg image------------------------*/
+@media only screen and (max-width:768px){
+	.orangem h1{
+		font-size:38px;
+		padding-top: 188px;
+		padding-left: 270px; 
+		}
+		.orangem p{
+			font-size: 15px;
+			padding-top: 115px;
+			margin-left: -11px;
+		}
+		width: 100%;
+	}
+@media only screen and (max-width:600px){
+	.orangem h1{
+		font-size:38px;
+		padding-top: 188px;
+		margin-left: -66px;
+	}
+	.orangem p{
+		font-size: 15px;
+		padding-top: 115px;
+			padding-left: 114px;
+	
+	}
+	width:100%
+}
+/*---------------------------4 bg image--------------------------*/
+@media only screen and (max-width:768px){
+	.white h1{
+		font-size:76px;
+		margin-top:30px;
+		margin-left:-24px;	
+	}
+	.white p{
+		font-size: 18px;
+		margin-top:10px;
+		padding-left:112px;
+	}
+	.button1{
+		font-size: 20px;
+		margin-top:-34px;
+		margin-left: -54px;
+	}
+	width: 100%;
+}
+@media only screen and (max-width:600px){
+	.white h1{
+		font-size: 51px;
+		margin-top: 10px;
+	}
+	.white p{
+		font-size: 16px;
+		margin-top:-15px;
+	}
+	.button1{
+		margin-top:-49px;
+		margin-left: -120px;
+		width: 125%;
+	}
+	width: 100%;
+}
+
+/*----------------------------footer--------------------*/	
+@media only screen and (max-width:768px){
+		.footer1 h3{
+			font-size: 20px;
+
+		}
+		.footer1 p{
+			font-size:5px;
+		}
+}
+@media only screen and (max-width:600px){
+	.footer1 h3{
+		font-size:20px;
+	}
+}
+/*--------aboout------------------*/
+@media only screen and (max-width:768px){
+		.footer2 h4{
+			font-size:21px;
+			margin-buttom: 2px;
+
+		}
+		.footer2 p{
+			font-size:14px;
+		}
+}
+@media only screen and (max-width:600px){
+		.footer2 h4{
+			font-size:19px;
+			margin-left: -14px;
+
+		}
+		.footer2 p{
+			font-size:11px;
+			margin-left: -13px;
+		}
+}
+/*-----------------services----------------*/
+@media only screen and (max-width:768px){
+		.footer3 h4{
+			font-size:21px;
+
+		}
+		.footer3 p{
+			font-size:14px;
+		}
+}
+@media only screen and (max-width:600px){
+		.footer3 h4{
+			font-size:19px;
+			margin-left: -14px;
+
+		}
+		.footer3 p{
+			font-size:11px;
+			margin-left: -13px;
+		}
+}
+/*--------------------others------------------*/
+@media only screen and (max-width:768px){
+		.footer4 h4{
+			font-size:21px;
+
+		}
+		.footer4 p{
+			font-size:14px;
+		}
+}
+@media only screen and (max-width:600px){
+		.footer4 h4{
+			font-size:19px;
+			margin-left: -14px;
+
+		}
+		.footer4 p{
+			font-size:11px;
+			margin-left: -13px;
+		}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
